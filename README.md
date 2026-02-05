@@ -1,19 +1,25 @@
 # IncidentHub
-The project resolves the issue of reporting, assigning and resolving production-like incidents.
+Proof of concept incident management system:
+- report, assign and resolve production-like incidents
+- track status changes, and keep an auditable timeline
+- async processing via messaging and a production-like delivery workflow  
 
 ![architecture.png](docs/architecture.png)
 
-# Reasoning
-This is a proof of concept for a fullstack role where I simulate a production-like environment and use: 
-- Backend: Java, Spring Boot 
-- Messaging: Kafka
-- Database: PostgreSQL 
-- Containerization: Docker
-- CI/CD: GitHub Actions
-- Frontend: React
+# Why this project
+I built IncidentHub as a portfolio project for Backend/FullStack roles to demonstrate:
+- Clean Spring Boot service design (controllers/services/repositories)
+- Persistence with PostgreSQL
+- Asynchronous workflows via messaging with Kafka
+- Local environment containerization with Docker
+- CI/CD pipelines with GitHub Actions
+- A minimal Frontend UI for incident browsing with React
 
+# GitHub workflow
 Inside requirements.md, there are core ideas I implement and push inside GitHub repository:
 - I make commits clearly and concise
 - I use the feature branching strategy
 - I pull requests to the main branch
-- I generate comments based on what I have done so far and solve them accordingly
+
+# How to run
+[//]: # (TODO)
